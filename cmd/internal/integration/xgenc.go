@@ -6,15 +6,15 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/goxgen/goxgen/plugins/cli"
-	"github.com/goxgen/goxgen/projects/basic"
-	"github.com/goxgen/goxgen/projects/gorm"
-	"github.com/goxgen/goxgen/xgen"
+	"github.com/ikhfa/goxgen/plugins/cli"
+	"github.com/ikhfa/goxgen/projects/basic"
+	"github.com/ikhfa/goxgen/projects/gorm"
+	"github.com/ikhfa/goxgen/xgen"
 )
 
 func main() {
 	xg := xgen.NewXgen(
-		xgen.WithPackageName("github.com/goxgen/goxgen/cmd/internal/integration"),
+		xgen.WithPackageName("github.com/ikhfa/goxgen/cmd/internal/integration"),
 		xgen.WithProject(
 			"myproject",
 			basic.NewProject(),

@@ -1,11 +1,11 @@
 package gorm_initial
 
 import (
-	"github.com/goxgen/goxgen/runtime/gorm_initial/generated"
-	"github.com/goxgen/goxgen/plugins/cli/settings"
-	"gorm.io/gorm"
 	"embed"
 	"fmt"
+	"github.com/ikhfa/goxgen/plugins/cli/settings"
+	"github.com/ikhfa/goxgen/runtime/gorm_initial/generated"
+	"gorm.io/gorm"
 )
 
 //go:embed tests/*

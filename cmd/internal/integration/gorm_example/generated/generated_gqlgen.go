@@ -2863,7 +2863,7 @@ func (ec *executionContext) _Mutation_user_create(ctx context.Context, field gra
 		if data, ok := tmp.(*User); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/goxgen/goxgen/cmd/internal/integration/gorm_example/generated.User`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/ikhfa/goxgen/cmd/internal/integration/gorm_example/generated.User`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2951,7 +2951,7 @@ func (ec *executionContext) _Mutation_user_update(ctx context.Context, field gra
 		if data, ok := tmp.(*User); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/goxgen/goxgen/cmd/internal/integration/gorm_example/generated.User`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/ikhfa/goxgen/cmd/internal/integration/gorm_example/generated.User`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3039,7 +3039,7 @@ func (ec *executionContext) _Mutation_phone_number_create(ctx context.Context, f
 		if data, ok := tmp.(*Phone); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/goxgen/goxgen/cmd/internal/integration/gorm_example/generated.Phone`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/ikhfa/goxgen/cmd/internal/integration/gorm_example/generated.Phone`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3127,7 +3127,7 @@ func (ec *executionContext) _Mutation_phone_number_update(ctx context.Context, f
 		if data, ok := tmp.(*Phone); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/goxgen/goxgen/cmd/internal/integration/gorm_example/generated.Phone`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/ikhfa/goxgen/cmd/internal/integration/gorm_example/generated.Phone`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3373,7 +3373,7 @@ func (ec *executionContext) _Phone_user(ctx context.Context, field graphql.Colle
 		if data, ok := tmp.(*User); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/goxgen/goxgen/cmd/internal/integration/gorm_example/generated.User`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/ikhfa/goxgen/cmd/internal/integration/gorm_example/generated.User`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3700,7 +3700,7 @@ func (ec *executionContext) _Query_user_browse(ctx context.Context, field graphq
 		if data, ok := tmp.([]*User); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be []*github.com/goxgen/goxgen/cmd/internal/integration/gorm_example/generated.User`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be []*github.com/ikhfa/goxgen/cmd/internal/integration/gorm_example/generated.User`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -4294,7 +4294,7 @@ func (ec *executionContext) _User_phoneNumbers(ctx context.Context, field graphq
 		if data, ok := tmp.([]*Phone); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be []*github.com/goxgen/goxgen/cmd/internal/integration/gorm_example/generated.Phone`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be []*github.com/ikhfa/goxgen/cmd/internal/integration/gorm_example/generated.Phone`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -9904,7 +9904,7 @@ func (ec *executionContext) unmarshalInputPhoneNumberInput(ctx context.Context, 
 			} else if tmp == nil {
 				it.User = nil
 			} else {
-				err := fmt.Errorf(`unexpected type %T from directive, should be *github.com/goxgen/goxgen/cmd/internal/integration/gorm_example/generated.UserInput`, tmp)
+				err := fmt.Errorf(`unexpected type %T from directive, should be *github.com/ikhfa/goxgen/cmd/internal/integration/gorm_example/generated.UserInput`, tmp)
 				return it, graphql.ErrorOnPath(ctx, err)
 			}
 		}
@@ -10233,7 +10233,7 @@ func (ec *executionContext) unmarshalInputUserInput(ctx context.Context, obj int
 			} else if tmp == nil {
 				it.Phones = nil
 			} else {
-				err := fmt.Errorf(`unexpected type %T from directive, should be []*github.com/goxgen/goxgen/cmd/internal/integration/gorm_example/generated.PhoneNumberInput`, tmp)
+				err := fmt.Errorf(`unexpected type %T from directive, should be []*github.com/ikhfa/goxgen/cmd/internal/integration/gorm_example/generated.PhoneNumberInput`, tmp)
 				return it, graphql.ErrorOnPath(ctx, err)
 			}
 		}
@@ -10648,7 +10648,7 @@ func (ec *executionContext) unmarshalInputXgenSortResourceConfigInput(ctx contex
 			} else if tmp == nil {
 				it.Default = nil
 			} else {
-				err := fmt.Errorf(`unexpected type %T from directive, should be []*github.com/goxgen/goxgen/cmd/internal/integration/gorm_example/generated.XgenSortInput`, tmp)
+				err := fmt.Errorf(`unexpected type %T from directive, should be []*github.com/ikhfa/goxgen/cmd/internal/integration/gorm_example/generated.XgenSortInput`, tmp)
 				return it, graphql.ErrorOnPath(ctx, err)
 			}
 		}

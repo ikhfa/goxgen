@@ -2,9 +2,9 @@ package ent
 
 import (
 	"embed"
-	"github.com/goxgen/goxgen/projects"
-	"github.com/goxgen/goxgen/projects/basic"
-	"github.com/goxgen/goxgen/tmpl"
+	"github.com/ikhfa/goxgen/projects"
+	"github.com/ikhfa/goxgen/projects/basic"
+	"github.com/ikhfa/goxgen/tmpl"
 )
 
 // Project is a project configuration for ent projects

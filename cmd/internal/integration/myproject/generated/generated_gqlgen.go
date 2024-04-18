@@ -3394,7 +3394,7 @@ func (ec *executionContext) _Mutation_todo_update(ctx context.Context, field gra
 		if data, ok := tmp.(*Todo); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/goxgen/goxgen/cmd/internal/integration/myproject/generated.Todo`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/ikhfa/goxgen/cmd/internal/integration/myproject/generated.Todo`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3480,7 +3480,7 @@ func (ec *executionContext) _Mutation_user_create(ctx context.Context, field gra
 		if data, ok := tmp.(*User); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/goxgen/goxgen/cmd/internal/integration/myproject/generated.User`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/ikhfa/goxgen/cmd/internal/integration/myproject/generated.User`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3584,7 +3584,7 @@ func (ec *executionContext) _Mutation_todo_delete(ctx context.Context, field gra
 		if data, ok := tmp.(*Todo); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/goxgen/goxgen/cmd/internal/integration/myproject/generated.Todo`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/ikhfa/goxgen/cmd/internal/integration/myproject/generated.Todo`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3692,7 +3692,7 @@ func (ec *executionContext) _Mutation_todo_custom(ctx context.Context, field gra
 		if data, ok := tmp.(*Todo); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/goxgen/goxgen/cmd/internal/integration/myproject/generated.Todo`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/ikhfa/goxgen/cmd/internal/integration/myproject/generated.Todo`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3800,7 +3800,7 @@ func (ec *executionContext) _Mutation_new_todo(ctx context.Context, field graphq
 		if data, ok := tmp.(*Todo); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/goxgen/goxgen/cmd/internal/integration/myproject/generated.Todo`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/ikhfa/goxgen/cmd/internal/integration/myproject/generated.Todo`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3886,7 +3886,7 @@ func (ec *executionContext) _Mutation_user_update(ctx context.Context, field gra
 		if data, ok := tmp.(*User); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/goxgen/goxgen/cmd/internal/integration/myproject/generated.User`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/ikhfa/goxgen/cmd/internal/integration/myproject/generated.User`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -4237,7 +4237,7 @@ func (ec *executionContext) _Query_todo_browse(ctx context.Context, field graphq
 		if data, ok := tmp.([]*Todo); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be []*github.com/goxgen/goxgen/cmd/internal/integration/myproject/generated.Todo`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be []*github.com/ikhfa/goxgen/cmd/internal/integration/myproject/generated.Todo`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -4326,7 +4326,7 @@ func (ec *executionContext) _Query_user_browse(ctx context.Context, field graphq
 		if data, ok := tmp.([]*User); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be []*github.com/goxgen/goxgen/cmd/internal/integration/myproject/generated.User`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be []*github.com/ikhfa/goxgen/cmd/internal/integration/myproject/generated.User`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -5042,7 +5042,7 @@ func (ec *executionContext) _Todo_user(ctx context.Context, field graphql.Collec
 		if data, ok := tmp.(*User); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/goxgen/goxgen/cmd/internal/integration/myproject/generated.User`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/ikhfa/goxgen/cmd/internal/integration/myproject/generated.User`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -12422,7 +12422,7 @@ func (ec *executionContext) unmarshalInputXgenSortResourceConfigInput(ctx contex
 			} else if tmp == nil {
 				it.Default = nil
 			} else {
-				err := fmt.Errorf(`unexpected type %T from directive, should be []*github.com/goxgen/goxgen/cmd/internal/integration/myproject/generated.XgenSortInput`, tmp)
+				err := fmt.Errorf(`unexpected type %T from directive, should be []*github.com/ikhfa/goxgen/cmd/internal/integration/myproject/generated.XgenSortInput`, tmp)
 				return it, graphql.ErrorOnPath(ctx, err)
 			}
 		}

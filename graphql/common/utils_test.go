@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/goxgen/goxgen/utils"
+	"github.com/ikhfa/goxgen/utils"
 	"reflect"
 	"testing"
 

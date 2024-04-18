@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/goxgen/goxgen/utils"
 	"os"
+
+	"github.com/ikhfa/goxgen/utils"
 )
 
 const xgencFile = "xgenc.go"

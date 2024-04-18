@@ -2,9 +2,9 @@ package introspection
 
 import (
 	"fmt"
-	"github.com/goxgen/goxgen/consts"
-	"github.com/goxgen/goxgen/graphql/common"
-	"github.com/goxgen/goxgen/graphql/generator"
+	"github.com/ikhfa/goxgen/consts"
+	"github.com/ikhfa/goxgen/graphql/common"
+	"github.com/ikhfa/goxgen/graphql/generator"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 

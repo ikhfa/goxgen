@@ -2,12 +2,12 @@ package list
 
 import (
 	"fmt"
-	"github.com/goxgen/goxgen/consts"
-	"github.com/goxgen/goxgen/graphql/actions"
-	"github.com/goxgen/goxgen/graphql/common"
-	"github.com/goxgen/goxgen/graphql/directives"
-	"github.com/goxgen/goxgen/graphql/sort"
-	"github.com/goxgen/goxgen/runtime/simple_initial/generated"
+	"github.com/ikhfa/goxgen/consts"
+	"github.com/ikhfa/goxgen/graphql/actions"
+	"github.com/ikhfa/goxgen/graphql/common"
+	"github.com/ikhfa/goxgen/graphql/directives"
+	"github.com/ikhfa/goxgen/graphql/sort"
+	"github.com/ikhfa/goxgen/runtime/simple_initial/generated"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 

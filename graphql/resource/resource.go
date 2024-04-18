@@ -1,11 +1,11 @@
 package resource
 
 import (
-	"github.com/goxgen/goxgen/consts"
-	"github.com/goxgen/goxgen/graphql/actions/list"
-	"github.com/goxgen/goxgen/graphql/actions/singular"
-	"github.com/goxgen/goxgen/graphql/db"
-	"github.com/goxgen/goxgen/graphql/directives"
+	"github.com/ikhfa/goxgen/consts"
+	"github.com/ikhfa/goxgen/graphql/actions/list"
+	"github.com/ikhfa/goxgen/graphql/actions/singular"
+	"github.com/ikhfa/goxgen/graphql/db"
+	"github.com/ikhfa/goxgen/graphql/directives"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 

@@ -1,11 +1,11 @@
 package gorm_advanced
 
 import (
-	"github.com/goxgen/goxgen/cmd/internal/integration/gorm_advanced/generated"
-	"github.com/goxgen/goxgen/plugins/cli/settings"
-	"gorm.io/gorm"
 	"embed"
 	"fmt"
+	"github.com/ikhfa/goxgen/cmd/internal/integration/gorm_advanced/generated"
+	"github.com/ikhfa/goxgen/plugins/cli/settings"
+	"gorm.io/gorm"
 )
 
 //go:embed tests/*

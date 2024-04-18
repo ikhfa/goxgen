@@ -2,11 +2,11 @@ package app
 
 import (
 	"fmt"
-	"github.com/goxgen/goxgen/plugins/cli/common"
-	"github.com/goxgen/goxgen/plugins/cli/consts"
-	"github.com/goxgen/goxgen/plugins/cli/project"
-	"github.com/goxgen/goxgen/plugins/cli/server"
-	"github.com/goxgen/goxgen/plugins/cli/tests"
+	"github.com/ikhfa/goxgen/plugins/cli/common"
+	"github.com/ikhfa/goxgen/plugins/cli/consts"
+	"github.com/ikhfa/goxgen/plugins/cli/project"
+	"github.com/ikhfa/goxgen/plugins/cli/server"
+	"github.com/ikhfa/goxgen/plugins/cli/tests"
 	"github.com/urfave/cli/v2"
 	"sync"
 )

@@ -1,8 +1,8 @@
 package xgen
 
 import (
-	"github.com/goxgen/goxgen/plugins"
-	"github.com/goxgen/goxgen/projects"
+	"github.com/ikhfa/goxgen/plugins"
+	"github.com/ikhfa/goxgen/projects"
 	"regexp"
 )
 

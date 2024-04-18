@@ -8,7 +8,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/goxgen/goxgen/cmd/internal/integration/myproject/generated"
+	"github.com/ikhfa/goxgen/cmd/internal/integration/myproject/generated"
 )
 
 // TodoUpdate is the resolver for the todo_update field.

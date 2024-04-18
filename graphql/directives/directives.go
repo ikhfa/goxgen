@@ -1,7 +1,7 @@
 package directives
 
 import (
-	"github.com/goxgen/goxgen/consts"
+	"github.com/ikhfa/goxgen/consts"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 

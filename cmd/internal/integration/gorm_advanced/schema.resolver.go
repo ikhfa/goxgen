@@ -7,8 +7,8 @@ package gorm_advanced
 import (
 	"context"
 
-	"github.com/goxgen/goxgen/cmd/internal/integration/gorm_advanced/generated"
-	"github.com/goxgen/goxgen/plugins/cli/server"
+	"github.com/ikhfa/goxgen/cmd/internal/integration/gorm_advanced/generated"
+	"github.com/ikhfa/goxgen/plugins/cli/server"
 	"go.uber.org/zap"
 	"gorm.io/gorm/clause"
 )

@@ -4,14 +4,14 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/goxgen/goxgen/projects/basic"
-	"github.com/goxgen/goxgen/projects/gorm"
-	"github.com/goxgen/goxgen/xgen"
+	"github.com/ikhfa/goxgen/projects/basic"
+	"github.com/ikhfa/goxgen/projects/gorm"
+	"github.com/ikhfa/goxgen/xgen"
 )
 
 func main() {
 	xg := xgen.NewXgen(
-		xgen.WithPackageName("github.com/goxgen/goxgen/runtime"),
+		xgen.WithPackageName("github.com/ikhfa/goxgen/runtime"),
 		xgen.WithProject(
 			"simple_initial",
 			basic.NewProject(),

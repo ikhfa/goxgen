@@ -1,7 +1,7 @@
 package mapper
 
 import (
-	"github.com/goxgen/goxgen/utils"
+	"github.com/ikhfa/goxgen/utils"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

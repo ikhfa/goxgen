@@ -7,7 +7,7 @@ package gorm_example
 import (
 	"context"
 
-	"github.com/goxgen/goxgen/cmd/internal/integration/gorm_example/generated"
+	"github.com/ikhfa/goxgen/cmd/internal/integration/gorm_example/generated"
 	"gorm.io/gorm/clause"
 )
 

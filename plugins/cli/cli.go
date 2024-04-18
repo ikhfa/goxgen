@@ -7,10 +7,10 @@ package cli
 import (
 	"context"
 	"embed"
-	"github.com/goxgen/goxgen/consts"
-	"github.com/goxgen/goxgen/plugins"
-	"github.com/goxgen/goxgen/projects"
-	"github.com/goxgen/goxgen/tmpl"
+	"github.com/ikhfa/goxgen/consts"
+	"github.com/ikhfa/goxgen/plugins"
+	"github.com/ikhfa/goxgen/projects"
+	"github.com/ikhfa/goxgen/tmpl"
 	"path"
 )
 

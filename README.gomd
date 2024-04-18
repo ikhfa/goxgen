@@ -1,9 +1,9 @@
 # goxgen
 
-[![GitHub license](https://img.shields.io/github/license/goxgen/goxgen)](https://github.com/goxgen/goxgen)
-[![GitHub stars](https://img.shields.io/github/stars/goxgen/goxgen)](https://github.com/goxgen/goxgen/stargazers)
+[![GitHub license](https://img.shields.io/github/license/goxgen/goxgen)](https://github.com/ikhfa/goxgen)
+[![GitHub stars](https://img.shields.io/github/stars/goxgen/goxgen)](https://github.com/ikhfa/goxgen/stargazers)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/goxgen/goxgen)
-[![Go Report Card](https://goreportcard.com/badge/github.com/goxgen/goxgen)](https://goreportcard.com/report/github.com/goxgen/goxgen)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ikhfa/goxgen)](https://goreportcard.com/report/github.com/ikhfa/goxgen)
 [![codecov](https://codecov.io/gh/goxgen/goxgen/branch/main/graph/badge.svg?token=SDEXU6YQH9)](https://codecov.io/gh/goxgen/goxgen)
 
 Your One-Stop Solution for GraphQL Application Generation

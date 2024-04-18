@@ -7,7 +7,7 @@ package simple_initial
 import (
 	"context"
 
-	"github.com/goxgen/goxgen/runtime/simple_initial/generated"
+	"github.com/ikhfa/goxgen/runtime/simple_initial/generated"
 )
 
 // XgenIntrospection is the resolver for the _xgen_introspection field.

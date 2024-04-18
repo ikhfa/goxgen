@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"github.com/99designs/gqlgen/api"
 	"github.com/99designs/gqlgen/plugin/modelgen"
-	"github.com/goxgen/goxgen/graphql"
-	"github.com/goxgen/goxgen/graphql/generator"
-	"github.com/goxgen/goxgen/utils"
+	"github.com/ikhfa/goxgen/graphql"
+	"github.com/ikhfa/goxgen/graphql/generator"
+	"github.com/ikhfa/goxgen/utils"
 	"github.com/vektah/gqlparser/v2/ast"
 	"path"
 )

@@ -2,13 +2,13 @@ package resource
 
 import (
 	"fmt"
-	"github.com/goxgen/goxgen/consts"
-	"github.com/goxgen/goxgen/graphql/common"
-	"github.com/goxgen/goxgen/graphql/generator"
-	"github.com/goxgen/goxgen/graphql/pagination"
-	"github.com/goxgen/goxgen/graphql/sort"
-	"github.com/goxgen/goxgen/runtime/gorm_initial/generated"
-	"github.com/goxgen/goxgen/utils"
+	"github.com/ikhfa/goxgen/consts"
+	"github.com/ikhfa/goxgen/graphql/common"
+	"github.com/ikhfa/goxgen/graphql/generator"
+	"github.com/ikhfa/goxgen/graphql/pagination"
+	"github.com/ikhfa/goxgen/graphql/sort"
+	"github.com/ikhfa/goxgen/runtime/gorm_initial/generated"
+	"github.com/ikhfa/goxgen/utils"
 	"github.com/vektah/gqlparser/v2/ast"
 	"strings"
 )

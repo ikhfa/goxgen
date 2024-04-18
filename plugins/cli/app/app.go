@@ -2,7 +2,7 @@ package app
 
 import (
 	"fmt"
-	"github.com/goxgen/goxgen/plugins/cli/project"
+	"github.com/ikhfa/goxgen/plugins/cli/project"
 	"github.com/joho/godotenv"
 	"github.com/urfave/cli/v2"
 	"os"

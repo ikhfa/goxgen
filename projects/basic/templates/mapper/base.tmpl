@@ -1,4 +1,4 @@
-{{- /* gotype: github.com/goxgen/goxgen/projects/basic.TemplateData*/ -}}
+{{- /* gotype: github.com/ikhfa/goxgen/projects/basic.TemplateData*/ -}}
 
 {{- define "BaseTemplate" -}}
 
@@ -6,7 +6,7 @@ package {{.GeneratedGqlgenPackageName}}
 {{- if .ResourceTypeNameToActionMap }}
 import (
 	"context"
-	"github.com/goxgen/goxgen/plugins/cli/server"
+	"github.com/ikhfa/goxgen/plugins/cli/server"
 )
 
 {{- range $res, $actions := .ResourceTypeNameToActionMap }}

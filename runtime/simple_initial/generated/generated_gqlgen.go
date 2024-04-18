@@ -6989,7 +6989,7 @@ func (ec *executionContext) unmarshalInputXgenSortResourceConfigInput(ctx contex
 			} else if tmp == nil {
 				it.Default = nil
 			} else {
-				err := fmt.Errorf(`unexpected type %T from directive, should be []*github.com/goxgen/goxgen/runtime/simple_initial/generated.XgenSortInput`, tmp)
+				err := fmt.Errorf(`unexpected type %T from directive, should be []*github.com/ikhfa/goxgen/runtime/simple_initial/generated.XgenSortInput`, tmp)
 				return it, graphql.ErrorOnPath(ctx, err)
 			}
 		}

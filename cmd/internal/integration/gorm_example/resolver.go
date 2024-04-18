@@ -1,11 +1,11 @@
 package gorm_example
 
 import (
-	"github.com/goxgen/goxgen/cmd/internal/integration/gorm_example/generated"
-	"github.com/goxgen/goxgen/plugins/cli/settings"
-	"gorm.io/gorm"
 	"embed"
 	"fmt"
+	"github.com/ikhfa/goxgen/cmd/internal/integration/gorm_example/generated"
+	"github.com/ikhfa/goxgen/plugins/cli/settings"
+	"gorm.io/gorm"
 )
 
 //go:embed tests/*

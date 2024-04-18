@@ -7,7 +7,7 @@ package gorm_initial
 import (
 	"context"
 
-	"github.com/goxgen/goxgen/runtime/gorm_initial/generated"
+	"github.com/ikhfa/goxgen/runtime/gorm_initial/generated"
 )
 
 // XgenIntrospection is the resolver for the _xgen_introspection field.

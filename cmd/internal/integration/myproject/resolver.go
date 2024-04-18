@@ -2,7 +2,7 @@ package myproject
 
 import (
 	"embed"
-	"github.com/goxgen/goxgen/plugins/cli/settings"
+	"github.com/ikhfa/goxgen/plugins/cli/settings"
 )
 
 //go:embed tests/*

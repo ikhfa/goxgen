@@ -1,9 +1,9 @@
 package project
 
 import (
-	"github.com/goxgen/goxgen/plugins/cli/common"
-	"github.com/goxgen/goxgen/plugins/cli/consts"
-	"github.com/goxgen/goxgen/plugins/cli/settings"
+	"github.com/ikhfa/goxgen/plugins/cli/common"
+	"github.com/ikhfa/goxgen/plugins/cli/consts"
+	"github.com/ikhfa/goxgen/plugins/cli/settings"
 	"github.com/urfave/cli/v2"
 	"io/fs"
 )

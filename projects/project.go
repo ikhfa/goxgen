@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/99designs/gqlgen/codegen/config"
 	"github.com/99designs/gqlgen/plugin/modelgen"
-	"github.com/goxgen/goxgen/utils"
+	"github.com/ikhfa/goxgen/utils"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 
